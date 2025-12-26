@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Flight f1 = new Flight("KC101", "Almaty", 180);
-        Flight f2 = new Flight("KC102", "Astana", 160);
+        Flight f1 = new Flight_type("KC101", "Almaty", 180);
+        Flight f2 = new Flight_type("KC102", "Astana", 160);
 
 
         Passenger p1 = new Passenger("Ayan", "P12345");
@@ -22,6 +22,7 @@ public class Main {
 
         b1.printInfo();
         b2.printInfo();
+
 
 
     }
