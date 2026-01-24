@@ -32,7 +32,7 @@ INSERT INTO bookings (passenger_id, flight_id, seat_number) VALUES
                                                                 (3, 3, '5B');   -- Ali на KC103
 
 SELECT * FROM passengers;
-SELECT * FROM flights;0
+SELECT * FROM flights;
 SELECT * FROM bookings;
 
 UPDATE flights SET capacity = 200 WHERE flight_id = 1;
