@@ -1,0 +1,15 @@
+<dependencies>
+    <!-- PostgreSQL JDBC -->
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.7.3</version>
+    </dependency>
+
+    <!-- Gson для JSON -->
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.10.1</version>
+    </dependency>
+</dependencies>
